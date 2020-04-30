@@ -8,7 +8,7 @@ let package = Package(
         ],
     dependencies: [
         .package(url: "https://github.com/kylef/PathKit.git", from: "0.9.0"),
-        .package(url: "https://github.com/tadija/AEXML.git", .revision("6eea665515d079c338690147082a8084a36484b0")),
+        .package(url: "https://github.com/tadija/AEXML.git", from: "4.5.0"),
         .package(url: "https://github.com/JohnSundell/ShellOut.git", from: "2.0.0")
         ],
     targets: [
